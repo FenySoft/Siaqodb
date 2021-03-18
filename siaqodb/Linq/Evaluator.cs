@@ -8,7 +8,7 @@ using System.Reflection;
 namespace Sqo
 {
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
 
     internal static class Evaluator
     {

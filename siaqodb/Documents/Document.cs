@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace Sqo.Documents
 {
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     public class Document
     {
         public Document()

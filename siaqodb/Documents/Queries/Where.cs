@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Sqo.Documents
 {
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     internal class Where 
     {
         public Where(string tagOrKey)

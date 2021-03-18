@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 namespace Sqo
 {
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     public abstract class ProjectionRow
 	{
 
@@ -26,14 +26,14 @@ namespace Sqo
 
 	}
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
 	public class ColumnProjection
 	{
 		internal List<SqoColumn> Columns;
 		internal Expression Selector;
 	}
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
 	public class ColumnProjector : ExpressionVisitor
 	{
 		List<SqoColumn> columns;
@@ -230,7 +230,7 @@ namespace Sqo
 	
 	}
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
 	class ProjectionReader<T,TOuter,TInner> : ISqoQuery<T>
 	{
 

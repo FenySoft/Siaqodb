@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 namespace Sqo
 {
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     public abstract class ExpressionVisitor
     {
         protected ExpressionVisitor()

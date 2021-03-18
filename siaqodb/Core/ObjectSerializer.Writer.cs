@@ -347,9 +347,9 @@ namespace Sqo.Core
       
        
 
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         private EventHandler<ComplexObjectEventArgs> needSaveComplexObject;
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         public event EventHandler<ComplexObjectEventArgs> NeedSaveComplexObject
         {
             add

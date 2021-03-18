@@ -8,7 +8,7 @@ namespace Sqo
     /// <summary>
     /// Basic class that any siaqodb storable class may inherits from 
     /// </summary>
-	[System.Reflection.Obfuscation(Exclude = true)]
+	
     public class SqoDataObject :ISqoDataObject
     {
 

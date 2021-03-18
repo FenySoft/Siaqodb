@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sqo.MetaObjects
 {
-     [System.Reflection.Obfuscation(Exclude = true)]
+     
     class DocumentInfo
     {
         public int OID { get; set; }

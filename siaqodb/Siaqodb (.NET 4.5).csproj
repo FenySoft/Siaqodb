@@ -46,7 +46,7 @@
     <WarningLevel>3</WarningLevel>
     <DocumentationFile>bin\Debug\net45\Siaqodb.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
-    <NoWarn>1591</NoWarn>
+    <NoWarn>1591,1570</NoWarn>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -58,6 +58,7 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <DocumentationFile>bin\Release\net45\Siaqodb.xml</DocumentationFile>
+    <NoWarn>1591,1570</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -173,7 +174,6 @@
     <Compile Include="Meta\ObjectInfo.cs" />
     <Compile Include="Meta\TypeHeader.cs" />
     <Compile Include="Meta\TypeInfo.cs" />
-    <Compile Include="Obfuscation\ObfuscationAttributes.cs" />
     <Compile Include="ObjectList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyResolver\MethodBasedRocks.cs" />

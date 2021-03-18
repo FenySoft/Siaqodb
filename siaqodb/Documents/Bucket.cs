@@ -893,14 +893,14 @@ namespace Sqo.Documents
         }
     }
 
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     enum DirtyOperation
     {
         Inserted = 1,
         Updated,
         Deleted
     }
-    [System.Reflection.Obfuscation(Exclude = true)]
+    
     class DirtyEntity
     {
         public DirtyOperation DirtyOp;

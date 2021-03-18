@@ -225,9 +225,9 @@ namespace Sqo.Core
 
        
        
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         private EventHandler<ComplexObjectEventArgs> needReadComplexObject;
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         public event EventHandler<ComplexObjectEventArgs> NeedReadComplexObject
         {
             add
@@ -260,9 +260,9 @@ namespace Sqo.Core
                 handler(this, args);
             }
         }
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         private EventHandler<DocumentEventArgs> needCacheDocument;
-        [System.Reflection.Obfuscation(Exclude = true)]
+        
         public event EventHandler<DocumentEventArgs> NeedCacheDocument
         {
             add
